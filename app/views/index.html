@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="NoteWrangler">
+<head>
+	<title>Note Wrangler</title>
+	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap-theme.css">
+</head>
+<body>
+	<h1>Hello World!</h1>
+	<div ng-view class="container-fluid"></div>
+
+
+<!-- vendors -->
+<script type="text/javascript" src="assets/javascript/vendors/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="assets/javascript/vendors/angular.js"></script>
+<script type="text/javascript" src="assets/javascript/vendors/angular-route.js"></script>
+<script type="text/javascript" src="assets/javascript/vendors/angular-resource.js"></script>
+
+<!-- Angular -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+<script type="text/javascript" src="assets/javascript/routes.js"></script>
+
+<!-- Controllers -->
+<script type="text/javascript" src="assets/javascript/controllers/notesIndexController.js"></script>
+<script type="text/javascript" src="assets/javascript/controllers/notesCreateController.js"></script>
+<script type="text/javascript" src="assets/javascript/controllers/notesShowController.js"></script>
+<script type="text/javascript" src="assets/javascript/controllers/notesEditController.js"></script>
+
+<script type="text/javascript" src="assets/javascript/controllers/usersIndexController.js"></script>
+<script type="text/javascript" src="assets/javascript/controllers/usersShowController.js"></script>
+
+<!-- Services -->
+<script type="text/javascript" src="assets/javascript/services/notes.js"></script>
+<script type="text/javascript" src="assets/javascript/services/users.js"></script>
+</body>
+</html>
