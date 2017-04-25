@@ -6,7 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap-theme.css">
 </head>
 <body>
-	<h1>Hello World!</h1>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+					<a href="/#/">Note Wrangler</a>
+				</div>
+			</div>
+			<nw-page-nav></nw-page-nav>
+		</div>
+	</nav>
 	<div ng-view class="container-fluid"></div>
 
 
@@ -32,5 +41,12 @@
 <!-- Services -->
 <script type="text/javascript" src="assets/javascript/services/notes.js"></script>
 <script type="text/javascript" src="assets/javascript/services/users.js"></script>
+<script type="text/javascript" src="assets/javascript/services/categories.js"></script>
+
+<!-- Filters -->
+<script type="text/javascript" src="assets/javascript/filters/categoryFilter.js"></script>
+<!-- Directives -->
+<script type="text/javascript" src="assets/javascript/directives/nwPageNav.js"></script>
+<script type="text/javascript" src="assets/javascript/directives/nwCategorySelect.js"></script>
 </body>
 </html>
